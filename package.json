@@ -1,0 +1,26 @@
+{
+  "name": "request-promise-native-res",
+  "version": "0.0.1",
+  "description": "Yet another promisified request module, uses bluebird, gives you native res instead of parsed body",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaGM/request-promise-native-res.git"
+  },
+  "keywords": [
+    "promisified",
+    "request",
+    "native",
+    "res",
+    "lol"
+  ],
+  "author": "Mega <Aza.Noriega@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MegaGM/request-promise-native-res/issues"
+  },
+  "homepage": "https://github.com/MegaGM/request-promise-native-res#readme"
+}

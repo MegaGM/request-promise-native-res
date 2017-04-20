@@ -3,6 +3,9 @@ let
   Promise = require('bluebird'),
   request = require('request')
 
+request.nativeRes = requestPromiseNativeRes
+module.exports = request
+
 function requestPromiseNativeRes(requestOptions) {
   return new Promise((resolve, reject) => {
     request(requestOptions, (err, res, body) => {
@@ -13,5 +16,3 @@ function requestPromiseNativeRes(requestOptions) {
     })
   })
 }
-
-module.exports = requestPromiseNativeRes

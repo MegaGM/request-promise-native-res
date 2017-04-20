@@ -1,6 +1,6 @@
 {
   "name": "request-promise-native-res",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yet another promisified request module, uses bluebird, gives you native res instead of parsed body",
   "main": "index.js",
   "scripts": {

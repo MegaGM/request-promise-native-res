@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MegaGM/request-promise-native-res/issues"
   },
-  "homepage": "https://github.com/MegaGM/request-promise-native-res#readme"
+  "homepage": "https://github.com/MegaGM/request-promise-native-res#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
